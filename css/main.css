@@ -1,0 +1,613 @@
+body{
+
+    overflow-x:hidden;
+
+}
+
+noscript div{
+
+    color: red;
+
+    font-weight: bolder;
+
+    background-color: yellow;
+
+    text-align: center;
+
+}
+
+
+
+
+
+/* TELA INICIAL*/
+
+#mensagem {
+
+    transition: all 0.52s;
+
+    background: #FFF;
+
+    border: #777 solid 1px;
+
+    box-shadow: 1px 1px 5px rgba(0,0,0,.52);
+
+    position: fixed;
+
+    top: -150px;
+
+    width: 100%;
+
+    padding: 25px 0;
+
+    text-align: center;
+
+    left: 0%;
+
+    color: red;
+
+    opacity: 0;
+
+    font-weight: 600;
+
+  }
+
+  
+
+  #mensagem.ver {
+
+    top: 75px;
+
+    opacity: 1;
+
+  }
+
+.conteudo-inicial{
+
+    box-shadow: 0 0 20px #888;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    padding: 10px;
+
+    position: absolute;
+
+    width: 50%;
+
+    border: 3px white solid;
+
+    background-color: white;
+
+    height: 300px;
+
+    border-radius: 10px;
+
+}
+
+.conteudo-inicial h1{
+
+    font-size: 20px;
+
+    font-weight: bolder;
+
+    
+
+}
+
+.conteudo-inicial p{
+
+    font-size: 18px;
+
+    text-align: justify;
+
+    letter-spacing: -1px;
+
+    line-height: 1.1rem;
+
+    font-weight: 500;
+
+}
+
+.conteudo-inicial h3{
+
+    font-size: 18px;
+
+    text-align: justify;
+
+    position: relative;
+
+    bottom: 35px;
+
+}
+
+.conteudo-inicial button{
+
+    position: relative;
+
+    bottom: 40px;
+
+}
+
+.tela-inicial{
+
+    width: 100%;
+
+    height: 100%;
+
+    /*background-color: rgb(245, 195, 195);*/
+
+    position: absolute;
+
+    
+
+    
+
+}
+
+div #circulo_inicial{
+
+    position: absolute;
+
+    top: 53%;
+
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    width: 250px;
+
+    height: 250px;
+
+    opacity: 0.3;
+
+    z-index: -1;
+
+   
+
+    
+
+}
+
+
+
+/* BOTOES */
+
+#btnJogar{
+
+    background-color: #dc3545;
+
+    border: solid #dc3545;
+
+    border-radius: 5px;
+
+    font-weight: 600;
+
+    
+
+
+
+}
+
+
+
+#btn-NovoJogo{
+
+    background-color: #dc3545;
+
+    border: solid #dc3545;
+
+    border-radius: 5px;
+
+    font-weight: 600;
+
+    
+
+}
+
+/* GERAL */
+
+a.disabled {
+
+    pointer-events: none;
+
+}
+
+
+
+/* HEADER */
+
+
+
+nav {
+
+    box-shadow: 0 0 20px #888;
+
+}
+
+nav ul li span{
+
+    font-size: 32px;
+
+    color: #dc3545; 
+
+    position: relative;
+
+    font-weight: bolder;
+
+}
+
+nav img {
+
+    max-width: 3rem;
+
+}
+
+.nav-pills .show>.nav-link {
+
+    color: #007bff;
+
+    background-color: #fff;
+
+}
+
+
+
+/* FORMULÁRIOS */
+
+form {
+
+    border: 1px solid;
+
+    border-radius: 15px;
+
+    padding: 1.5rem;
+
+}
+
+
+
+/* ÁREA DO JOGO */
+
+.celula {
+
+    width: 40px;
+
+    height: 40px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    border: 1px solid #ccc;
+
+    margin-bottom: 4px;
+
+    font-weight: bold;
+
+}
+
+/* CRONOMETRO */
+
+#cronometro{
+
+    font-size: 100px;
+
+    text-align: center;
+
+    color: red;
+
+}
+
+.celula[disabled] {
+
+    background: #ccc;
+
+}
+
+/* MENSAGEM DE SUCESSO*/
+
+#msg-sucess{
+
+    color: red;
+
+    font-weight: bold;
+
+}
+
+
+
+@media screen and (max-width: 1024px){
+
+    nav ul li span{
+
+        top: 20px;
+
+        font-size: 35px;
+
+    }
+
+    #form-jogo h1{
+
+        font-size: 30px;
+
+    }
+
+    #cronometro{
+
+        font-size: 70px;
+
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    nav ul li span{
+
+        font-size: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    nav ul li span{
+
+        top: 0px;
+
+        font-size: 12.9px;
+
+    }
+
+    #cronometro{
+
+        font-size: 80px;
+
+    }
+
+    .celula {
+
+        width: 25px;
+
+        height: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+
+    nav ul li span{
+
+        text-align: center;     
+
+    }
+
+    div #circulo_inicial{
+
+        width: 200px;
+
+        height: 200px;
+
+        
+
+    }
+
+    .conteudo-inicial button{
+
+        position: relative;
+
+        bottom: 25px;
+
+    }
+
+    .conteudo-inicial{
+
+        height: 300px;
+
+        width: 70%;
+
+
+
+    }
+
+    .conteudo-inicial h1{
+
+        font-size: 15px;
+
+        font-weight: bolder;
+
+        letter-spacing: -1px;
+
+        text-align: justify;
+
+        
+
+    }
+
+    .conteudo-inicial p{
+
+        font-size: 14px;
+
+        text-align: justify;
+
+        letter-spacing: -1px;
+
+        line-height: 1.1rem;
+
+        font-weight: 500;
+
+    }
+
+    .conteudo-inicial h3{
+
+        font-size: 14px;
+
+        bottom: 30px;
+
+        position: relative;
+
+    }
+
+    .celula {
+
+        width: 23px;
+
+        height: 23px;
+
+    }
+
+    .col-lg-9.p-4.text-center {
+
+        padding: 0!important;
+
+        padding-top: 1.5rem!important;
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    nav ul li span{
+
+        text-align: end;     
+
+    }
+
+    div #circulo_inicial{
+
+        width: 200px;
+
+        height: 200px;
+
+        
+
+    }
+
+    .conteudo-inicial h1{
+
+        font-size: 13px;
+
+    }
+
+    .conteudo-inicial button{
+
+        position: relative;
+
+        bottom: 35px;
+
+        height: 30px;
+
+        
+
+    }
+
+    .celula {
+
+        width: 20px;
+
+        height: 20px;
+
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+
+    .conteudo-inicial button{
+
+        position: relative;
+
+        bottom: 25px;
+
+        height: 30px;
+
+        
+
+    }
+
+    .conteudo-inicial{
+
+        height: 320px;
+
+        text-align: justify;
+
+        width: 70%;
+
+        line-height: 1.1rem;
+
+    }
+
+    .conteudo-inicial h1{
+
+        font-size: 13px;
+
+        font-weight: bolder;
+
+        
+
+        
+
+    }
+
+    .conteudo-inicial p{
+
+        letter-spacing: 0px;
+
+        font-size: 11px;
+
+        
+
+        font-weight: bold;
+
+       
+
+    }
+
+    .conteudo-inicial h3{
+
+        font-size: 14px;
+
+        bottom: 30px;
+
+        position: relative;
+
+        font-weight: 500;
+
+    }
+
+    .celula {
+
+        width: 17px;
+
+        height: 17px;
+
+    }
+
+    
+
+}
+
+.dica {
+
+    border: 2px solid red;
+
+    border-radius: 5px;
+
+}
+
+.acerto {
+
+    background-color: #00ff0054;
+
+}
