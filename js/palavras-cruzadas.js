@@ -16,7 +16,7 @@ function sim(){
 
     //redirecionamento para pagina questionário
 
-    window.location.href ="index.php"; }, 10000);        
+    window.location.href ="jogo.php"; }, 10000);        
 
     
 
