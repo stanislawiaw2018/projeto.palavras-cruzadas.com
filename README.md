@@ -1,3 +1,6 @@
+![GitHub](https://img.shields.io/github/license/stanislawiaw2018/projeto.palavras-cruzadas.com)
+![GitHub All Releases](https://img.shields.io/github/downloads/stanislawiaw2018/projeto.palavras-cruzadas.com/total)
+![GitHub repo size](https://img.shields.io/github/repo-size/stanislawiaw2018/projeto.palavras-cruzadas.com)  
 <p align="center">
   <img src="arquivos/favicon.jpg" alt="palavras-cruzadas">
 </p>
