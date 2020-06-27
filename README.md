@@ -16,7 +16,8 @@
   - [Como baixar o projeto](#-Como-baixar-o-projeto)
 
 
-# Projeto palavras-cruzadas
+#  🎲 Projeto palavras-cruzadas
+
 ## 🚀 Sobre
 Projeto de interatividade no período de pandemia (**Jogo de Palavras**), criado com o intuito de entreter um grupo de jovens no período de isolamento social.
 
