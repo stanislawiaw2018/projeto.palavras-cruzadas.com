@@ -8,7 +8,7 @@
 
 
 <h2 align="center">
-  <a href="https://palavras-cruzadas20.000webhostapp.com/"> Acessar a demonstração
+  <a href="https://palavras-cruzadas20.000webhostapp.com/" target=_black> Acessar a demonstração
 </h2>
 
 # Indice
