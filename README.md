@@ -19,7 +19,7 @@
 
 
 # Projeto palavras-cruzadas
-## :clipboard: Sobre
+## 💻 Sobre
 Projeto de interatividade no período de pandemia (**Jogo de Palavras**), criado com o intuito de entreter um grupo de jovens no período de isolamento social.
 
 ---
@@ -40,7 +40,7 @@ O projeto foi desenvolvido utlizando as seguintes tecnologias:
 
 ---
 
-## :arrow_down: Como baixar o projeto
+## 💻 Como baixar o projeto
 
 ```bash
 $git clone https://github.com/stanislawiaw2018/projeto.palavras-cruzadas.com.git
