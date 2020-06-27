@@ -1,10 +1,8 @@
-<h1 align="center">
-    <img scr="/arquivos/snapshot.png">
-</h1>
+![Alt text](arquivos/favicon.png) 
 
-<h1>
-    <img scr='/arquivos/demonstracao.gif'>
-</h1>
+
+![Alt text](/arquivos/demonstracao.gif)
+
 
 <h2 align="center">
   <a href="https://palavras-cruzadas20.000webhostapp.com/"> Acessar a demonstração
@@ -19,7 +17,7 @@
 
 
 # Projeto palavras-cruzadas
-## :clipboard: Sobre
+## 🚀 Sobre
 Projeto de interatividade no período de pandemia (**Jogo de Palavras**), criado com o intuito de entreter um grupo de jovens no período de isolamento social.
 
 ---
@@ -40,7 +38,7 @@ O projeto foi desenvolvido utlizando as seguintes tecnologias:
 
 ---
 
-## :arrow_down: Como baixar o projeto
+## ⏬ Como baixar o projeto
 
 ```bash
 $git clone https://github.com/stanislawiaw2018/projeto.palavras-cruzadas.com.git
