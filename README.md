@@ -1,4 +1,6 @@
 <p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/stanislawiaw2018/projeto.palavras-cruzadas.com">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/stanislawiaw2018/projeto.palavras-cruzadas.com">
   <img src="https://img.shields.io/github/license/stanislawiaw2018/projeto.palavras-cruzadas.com">
   <img src="https://img.shields.io/github/downloads/stanislawiaw2018/projeto.palavras-cruzadas.com/total">
   <img src="https://img.shields.io/github/repo-size/stanislawiaw2018/projeto.palavras-cruzadas.com">
