@@ -30,7 +30,7 @@
 #  🎲 Projeto palavras-cruzadas
 
 ## 🚀 Sobre
-Projeto de interatividade no período de pandemia (**Jogo de Palavras**), criado com o intuito de entreter um grupo de jovens no período de isolamento social.
+Projeto de interatividade no período de pandemia (**Jogo de Palavras-Cruzadas**), criado com o intuito de entreter um grupo de jovens no período de isolamento social.
 
 ---
 
